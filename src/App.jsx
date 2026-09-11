@@ -123,7 +123,7 @@ const BOOST_EXERCISES = [
 ];
 
 // Remplace ce lien par ton vrai lien Stripe une fois créé.
-const PAYMENT_LINK = "https://buy.stripe.com/REMPLACE_PAR_TON_LIEN";
+const PAYMENT_LINK = "https://buy.stripe.com/test_00wfZggV6aWG6iW9iL1VK00";
 
 // Photos placeholder — à remplacer par tes propres visuels.
 const HERO_IMAGE = "https://picsum.photos/seed/strive-hero/1200/1400";
@@ -324,7 +324,7 @@ export default function App() {
       <div style={{ position: "absolute", bottom: "-15%", right: "-10%", width: 520, height: 520, borderRadius: "50%", background: PALETTE.teal, filter: "blur(150px)", opacity: 0.2, animation: "driftB 18s ease-in-out infinite", pointerEvents: "none" }} />
       <div style={{ position: "absolute", top: "30%", right: "20%", width: 320, height: 320, borderRadius: "50%", background: PALETTE.orange, filter: "blur(130px)", opacity: 0.14, animation: "driftA 22s ease-in-out infinite", pointerEvents: "none" }} />
 
-      <div key={stage} className="stage-in" style={{ maxWidth: stage === "landing" ? 980 : 560, width: "100%", position: "relative" }}>
+      <div key={stage} className="stage-in" style={{ maxWidth: stage === "landing" ? 1200 : 720, width: "100%", position: "relative" }}>
 
         {/* NAV */}
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: stage === "landing" ? 56 : 40 }}>
